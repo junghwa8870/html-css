@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  .box {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: width 1s ease-in-out; /* 초기 상태에서의 너비 전환 효과를 추가 */
+  }
+  .box:hover {
+    width: 300px;
+  }
+  @keyframes grow-up { 
+    0% {
+      width: 100px;
+    }
+
+    50% {
+      width: 500px;
+    }
+
+    100% {
+      width: 300px;
+    }
+  }       
+</style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
