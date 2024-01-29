@@ -1,0 +1,315 @@
+@import url(./과제.html);
+
+body {
+    background: lightgrey;
+    height: 80%;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: lightgrey;
+    /* padding: 10px; */
+    color: white;
+    /* width: 100%;
+    margin: 0 auto; */
+    
+}
+
+header h1 {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'jua';
+    background: orange;  
+}
+
+header h1 span {
+font-size: 15px;
+font-weight: bold;
+text-align: center;
+font-family: '굴림';
+background: orange;
+line-height: 3;
+}
+
+.stit {
+    background: lightgrey;
+    font-size: 12px;
+    text-align: center;
+    font-style: '굴림';
+    color: black;
+    padding: 5px;
+    width: 100%;
+}
+
+.container {
+    background: white;
+    height: 680px;
+}
+
+.side-menu {
+    float: left;
+    box-sizing: border-box;
+    width: 18%;
+    height: 680px;
+    background: white;
+    
+}
+.side-menu h3 {
+background: darkred;
+color: white;
+padding: 10px;
+font-weight: bold;
+}
+
+.side-menu li {
+color: black;
+background: white;
+padding: 10px;
+
+}
+
+.side-menu a {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.side-menu a:hover {
+    color: blue;
+}
+
+.main-content {
+    background: lightgrey;
+    width: 80%;
+    
+}
+
+h4 {
+    padding: 10px;    
+    font-size: 15px;
+    background: #132d4b;
+    margin: 10px 10px 10px 30px;
+    
+}
+
+.art-piece {
+    margin: 10px 10px 10px 30px;
+    padding-left: 10px;
+    background: lightgrey;
+    margin: 10px 10px 10px;
+    /* margin-left: 20px; */
+}
+.main-content a {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;    
+} 
+
+.artist {
+    color: #132d4b;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.detail {
+    color: #132d4b;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 10px 10px auto;
+    padding: 5px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.banner {
+    background: white;
+    float: right;
+    box-sizing: border-box;
+    width: 18%;
+    height: 500px;
+    
+}
+
+.relative {
+    position: relative;
+      left: -15px;
+      bottom: 670px;
+}
+
+.banner h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.banner .all {
+    color: grey;
+    text-decoration: underline;    
+}
+
+.banner .love {
+    color: orange;
+    text-decoration: underline;
+    
+}
+
+.banner li {
+    color: black;
+    font-weight: 500;
+}
+
+.banner a {
+    color: black;
+    font-weight: 1000;
+}
+
+footer {
+    background: #132d4b;
+    height: 4%;
+    color: white;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    
+}   
+
+footer address {
+    text-align: center;
+}
+footer a {
+    color: white;
+}
+
+
+
+/* .container {
+    background: white; 
+    width: 50%;
+    position: relative;
+     
+    
+}
+
+.side-menu {
+    color: black;
+    float: left;       
+    width: 25%;
+    /* padding: 20px; */
+    /* background: white;
+    position: absolute; */
+    /* box-sizing: border-box; */
+   
+/* } */
+
+/* h3 {
+    background: darkred;
+    color: white;
+    padding: 5px;
+    float: left;
+}  
+
+.side-menu li a {
+    margin: 5px 0 5px;
+    color: black;
+    padding: 5px;
+    
+}
+
+.side-menu li a:hover {
+    color: blue;
+    
+} */
+
+/* .banner {
+    float: right;
+    width: 25%;
+    background: white; */
+    /* color: black;
+    text-decoration: none; */
+/* } */
+
+/* .main-content {
+    background: lightgray;
+    /* position: absolute;
+    width: 25%; */
+/* } */
+
+/* .main-content h4 {
+background: darkblue;
+color: white;
+} */ 
+
+
+
+
+
+/* footer {
+    background: darkblue;
+    color: white;
+    font-size: 15px;
+} 
+
+footer address a {
+    color: white;
+}
+
+.artist {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: blue;
+    padding: 10px;
+}
+
+.detail {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+     margin-bottom: 10px; 
+     color: blue;
+    padding: 10px; 
+}
+
+.banner .all {
+    color: lightgrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.banner .love {
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.banner .strong {
+    color: black;
+    font-weight: bold;
+}
+
+.link li {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+  }  
+ 
+   */ 
+   .clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+   }
